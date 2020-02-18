@@ -18,11 +18,11 @@ busImage.addEventListener('mouseleave', () => {
   });
 //   3
   const header = document.querySelector("header");
-header.addEventListener("click" , e=> {
+header.addEventListener("click" , event=> {
     header.style.backgroundColor = "lightblue";
 });
 // 4
-header.addEventListener("wheel", e=> {
+header.addEventListener("wheel", event=> {
     header.style.backgroundColor = "blue";
 });
 // 5
