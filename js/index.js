@@ -54,7 +54,7 @@ mainLogo.addEventListener("dblclick", () => {
 
 
 
-// 8
+
 const navBar = document.querySelector('nav');
  window.addEventListener('scroll', () => {
      navBar.style.backgroundColor = 'teal';
@@ -67,6 +67,26 @@ const navBar = document.querySelector('nav');
     })
 
 
+    const size = document.querySelector('.intro img');
+
+    window.addEventListener('resize', () => {
+        size.style.display = 'none';
+    
+    }); 
+
+    const imgSize = document.querySelector(".img-content");
+
+    window.addEventListener('resize', () => {
+        imgSize.style.display = 'none';
+    
+    }); 
+
+    const imgSize2 = document.querySelector();
+
+    window.addEventListener('resize', () => {
+        imgSize2.style.display = 'none';
+    
+    }); 
 const stop = document.querySelectorAll(".nav a");
 stop.forEach(event => {
   event.addEventListener("click", event => {
