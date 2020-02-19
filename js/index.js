@@ -1,6 +1,6 @@
 
 
-//  1
+
 const busImage = document.querySelector('.intro img');
 
 
@@ -12,26 +12,26 @@ busImage.addEventListener('mouseenter', () => {
 busImage.addEventListener('mouseleave', () => {
     busImage.style.transform = "scale(1)";
   });
-//  2 
+
   window.addEventListener('load', (event) => {
-    console.log('page is fully loaded');
+    console.log('hello');
   });
-//   3
+
   const header = document.querySelector("header");
 header.addEventListener("click" , event=> {
     header.style.backgroundColor = "lightblue";
 });
-// 4
+
 header.addEventListener("wheel", event=> {
     header.style.backgroundColor = "blue";
 });
-// 5
+
 const body = document.querySelector('body');
 body.addEventListener('click', () => {
   body.style.backgroundColor = 'lightblue';
   
 });
-// 6
+
 const hideImg = document.querySelectorAll('img');
 hideImg.forEach(image => {
     image.addEventListener('mouseover', () => {
@@ -45,7 +45,7 @@ hideImg.forEach(image => {
         image.style.transition = 'all 0.4s';
     })
 });
-// 7
+
 const mainLogo = document.querySelector(".logo-heading")
 mainLogo.addEventListener("dblclick", () => {
   mainLogo.style.color = "white";
